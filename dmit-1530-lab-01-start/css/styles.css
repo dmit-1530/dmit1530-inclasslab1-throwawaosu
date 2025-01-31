@@ -11,4 +11,60 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: vh; 
+    max-width: 1903px;
+
+    font-size: 1rem;
+
+}
+.content{
+    max-width: 1040px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img{
+    width: 49%;
+}
+
+
+h1{
+    font-size: 4rem;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+    font-family: Fjalla One;
+    color: #415B5C;
+}
+h2{
+    font-size: 2.25rem;
+    font-family: Fjalla One;
+    color: #415B5C;
+}
+h3{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+header h3{
+    font-size: 1.5rem;
+}
+a{
+    font-size: 1.25rem;
 }
